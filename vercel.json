@@ -1,0 +1,25 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/metamask",
+      "destination": "https://metamask-clone-rho.vercel.app/"
+    },
+    {
+      "source": "/metamask/:path*",
+      "destination": "https://metamask-clone-rho.vercel.app/:path*"
+    },
+    {
+      "source": "/coinbase",
+      "destination": "https://coinbaseclone-red.vercel.app/"
+    },
+    {
+      "source": "/coinbase/:path*",
+      "destination": "https://coinbaseclone-red.vercel.app/:path*"
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://gitless.vercel.app/:path*"
+    }
+  ]
+}
